@@ -30,3 +30,18 @@ A fully offline Sinhala language chatbot built using Streamlit and OLLAMA.
 1. Install dependencies:
    ```bash
    pip install -r requirements.txt
+2. Start OLLAMA:
+   ```bash
+   ollama serve
+3. Pull required models:
+   ```bash
+   ollama pull Tharusha_Dilhara_Jayadeera/singemma
+   ollama pull llama3
+4. Run the app:
+   ```bash
+   streamlit run app.py
+
+## Evaluation Summary
+- SinGemma performed better overall in this implementation
+- Llama 3 produced fewer usable outputs in the recorded test set
+- Rewrite mechanism improved mixed-language output quality
