@@ -1,6 +1,9 @@
 # Sinhala Offline Chatbot
 
-A fully offline Sinhala language chatbot built using Streamlit and OLLAMA.
+Fully offline Sinhala chatbot
+Local inference with OLLAMA
+Streamlit-based interactive UI
+Prompt engineering + rewrite mechanism
 
 ## Features
 - Sinhala input and Sinhala output
@@ -36,7 +39,7 @@ A fully offline Sinhala language chatbot built using Streamlit and OLLAMA.
 3. Pull required models:
    ```bash
    ollama pull Tharusha_Dilhara_Jayadeera/singemma
-   ollama pull llama3
+   ollama pull llama3:latest
 4. Run the app:
    ```bash
    streamlit run app.py
