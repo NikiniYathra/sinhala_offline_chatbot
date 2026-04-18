@@ -45,3 +45,17 @@ A fully offline Sinhala language chatbot built using Streamlit and OLLAMA.
 - SinGemma performed better overall in this implementation
 - Llama 3 produced fewer usable outputs in the recorded test set
 - Rewrite mechanism improved mixed-language output quality
+
+## Screenshots
+
+### Main Chat Interface
+![Main Chat Interface](assets/screenshots/main_chat_interface.png)
+
+### Sinhala Interaction Example
+![Sinhala Interaction](assets/screenshots/sinhala_interaction.png)
+
+### Model Comparison Panel
+![Model Comparison](assets/screenshots/model_comparison.png)
+
+### Testing Panel
+![Testing Panel](assets/screenshots/testing_panel.png)
